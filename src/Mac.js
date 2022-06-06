@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 
-export default function Mac() {
+export default function Mac(props) {
   return (
     <div>
-      <h1>Hello magic</h1>
+      <h1>Hello {props.name}</h1>
       
     </div>
   );
